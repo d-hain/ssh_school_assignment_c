@@ -62,6 +62,7 @@ int main(void) {
     } else {
         username[strlen(username) - 1] = '\0';
     }
+    fflush(stdin);
 
     ssh_session session = ssh_new();
     if (session == NULL) {
