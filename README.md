@@ -1,4 +1,4 @@
-# SSH using PHP
+# SSH using the C programming language
 
 ## How to run
 
@@ -7,7 +7,11 @@
 ### UNIX
 
 Be sure to have the `libssh` dev package installed.\
-[libssh-dev](https://packages.debian.org/bookworm/libssh-dev) on debian.
+[libssh-dev](https://packages.debian.org/bookworm/libssh-dev) on debian.\
+Get the `libssh` library on Ubuntu/Debian using the following command:
+```shell
+apt-get install libssh-dev
+```
 
 **Run...**
 - `make` or `make run` to build and run the program.
@@ -16,9 +20,8 @@ Be sure to have the `libssh` dev package installed.\
 
 ### Windows
 
-Maybe try using `wsl`.\
-I have no idea on how to get the `libssh` library.
-
+Should work in `wsl`.\
+For that see the **UNIX** instructions.
 
 ## School Assignment
 
